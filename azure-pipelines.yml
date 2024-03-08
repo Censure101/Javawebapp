@@ -33,7 +33,6 @@ steps:
     Contents: '**/*.war'
     TargetFolder: '$(system.defaultworkingdirectory)'
   inputs:
-  
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
     publishLocation: 'Container'
